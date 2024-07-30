@@ -24,7 +24,7 @@ docker build -t metrics-app .
 docker run -d -p 5000:5000 --name metrics-app-container --restart always metrics-app    
 ```
 
-## Deploy via deploy.sh
+## Deploy via script deploy.sh
 Para realizar el deploy via el script deploy.sh se le deben dar los permisos de ejecución y luego ejecutarlo lo cual creara la imagen en docker y luego levantara un contener con esta:
 ```bash
 chmod +x deploy.sh
