@@ -28,6 +28,7 @@ jobs:
           pip install -r requirements.txt
       - name: Test:Pytest
         run: |
+          source venv/bin/activate
           python -m pytest
           
       - name: Build Docker image
