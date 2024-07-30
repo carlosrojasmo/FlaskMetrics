@@ -7,18 +7,17 @@ Clonar el repositorio:
    ```bash
    git clone https://github.com/your-username/Metrics-app.git
    cd Metrics-app
-```
+   ```
 ## Ejecución en python
     ```bash
     python -m venv venv
     source venv/bin/activate  # Enn windows usar `venv\Scripts\activate`
     pip install -r requirements.txt
     python .\src\app.py
-```
-
 ## Deployment
 
 Para realizar el deploy de la app:
+
 ```bash
 docker build -t metrics-app .
 docker run -d -p 5000:5000 --name metrics-app-container --restart always metrics-app    
