@@ -10,10 +10,10 @@ Clonar el repositorio:
    ```
 ## Ejecución en python
 ```bash
-    python -m venv venv
-    source venv/bin/activate  # Enn windows usar `venv\Scripts\activate`
-    pip install -r requirements.txt
-    python .\src\app.py
+python -m venv venv
+source venv/bin/activate  # Enn windows usar venv\Scripts\activate`
+pip install -r requirements.txt
+python .\src\app.py
 ```
 ## Deployment
 
