@@ -11,4 +11,4 @@ if [ "$(docker ps -aq -f name=$CONTAINER_NAME)" ]; then
 fi
 
 docker run -d -p 5000:5000 --name $CONTAINER_NAME --restart always $IMAGE_NAME
-echo "Despliegue completado. La aplicación está corriendo en http://localhost:5000/metrics"
+echo "Despliegue completado. La aplicación se está ejecutando en http://localhost:5000/metrics"
