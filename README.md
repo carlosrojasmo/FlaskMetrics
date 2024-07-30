@@ -14,6 +14,7 @@ Clonar el repositorio:
     source venv/bin/activate  # Enn windows usar `venv\Scripts\activate`
     pip install -r requirements.txt
     python .\src\app.py
+    ```
 ## Deployment
 
 Para realizar el deploy de la app:
